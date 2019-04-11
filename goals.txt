@@ -1,0 +1,5 @@
+Goals:
+
+Be a part of the machine, not the machine itself.
+Provide language agnostic APIS to communicate with.
+
