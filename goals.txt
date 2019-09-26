@@ -1,5 +1,26 @@
 Goals:
 
 Be a part of the machine, not the machine itself.
-Provide language agnostic APIS to communicate with.
+Provide language agnostic APIs to communicate with.
+
+Allow multiple paths of notification to include:
+  Email
+  Texting
+  Calls
+  SMS
+  ...
+
+Allow tickets to be folded in together:
+  Merge all ticket memebers
+  Merge all ticket groups
+  Merge all ticket histories.
+
+Determine a process for mapping workflow.
+  UML?
+  BPM?
+  ...?
+
+Authentication
+
+Authorization
 
