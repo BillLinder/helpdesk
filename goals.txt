@@ -21,6 +21,14 @@ Determine a process for mapping workflow.
   ...?
 
 Authentication
-
+  AD Integration
+  Private local database
+  
+  
 Authorization
 
+Accounts
+  One account per person.
+    Accounts are all basic level by default.
+    Accounts can be granted other scopes (such as an Agent, Manager or other designated levels)
+    
