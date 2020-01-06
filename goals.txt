@@ -32,3 +32,10 @@ Accounts
     Accounts are all basic level by default.
     Accounts can be granted other scopes (such as an Agent, Manager or other designated levels)
     
+Open Application Communications:
+  Allow APIs to integrate with other ticket/task/project/etc systems.
+
+Project Planning
+  Link projects steps to previous steps as dependencies or not dependent entries.
+  Cross link steps in projects that depend on completion of steps in another project.
+  
