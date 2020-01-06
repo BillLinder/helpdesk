@@ -23,7 +23,8 @@ Determine a process for mapping workflow.
 Authentication
   AD Integration
   Private local database
-  
+
+
   
 Authorization
 
@@ -31,6 +32,27 @@ Accounts
   One account per person.
     Accounts are all basic level by default.
     Accounts can be granted other scopes (such as an Agent, Manager or other designated levels)
+  Each person can be on multiple teams
+    An accounts visiblity and screen is based upon the access level for the team on the current ticket.
+      Except when that person is the owner.
+    There are two teams per ticket:
+      The Resolution Team (Agents)
+      The Customer Team (Those impacted by the issue)
+  An account can be part of multiple orgnizations:
+    Organizations are Companies, Departments, Divisions, etc.
+    The Agents working on a ticket may be in the same company or may be in different companies.
+    The Customers requesting a ticket may be in the same company or may be in different companies.
+  An account can be elevated or deelevated by discreet organization and or team.
+    An agent in Printer Management needs to be elevated for tickets in that team.
+    The same agent does not need to be eleveated for the Network Enigneer's work.
+  For each team, at least one account is in charge of that team and is allowed to add/remove and grant or revoke rights in that team.
+    This is true for all groups in the system.
+    
+Groups (of accounts)
+  A group is simply defined as a list of individuals and/or groups that have individual specific rights defined for the group.
+  A Department, Company, Workcenter, Team, Deivision, etc are just teams.
+    You could list a Company as being part of a department.  In most cases this would make no sense, but you could.
+    
     
 Open Application Communications:
   Allow APIs to integrate with other ticket/task/project/etc systems.
@@ -38,4 +60,5 @@ Open Application Communications:
 Project Planning
   Link projects steps to previous steps as dependencies or not dependent entries.
   Cross link steps in projects that depend on completion of steps in another project.
+  Allow Multiple Bids and proposals for each step in the process to be decided upon.
   
