@@ -24,6 +24,9 @@ Authentication
   AD Integration
   Private local database
 
+Emails
+  Selectively block emails from specified senders, domains, etc.
+  
 
   
 Authorization
@@ -56,6 +59,11 @@ Groups (of accounts)
     
 Open Application Communications:
   Allow APIs to integrate with other ticket/task/project/etc systems.
+  Integration with Outlook
+  Integration with Gmail
+  Integration with Facebook
+  Integration with Salesforce
+  Integration with Twitter
 
 Project Planning
   Link projects steps to previous steps as dependencies or not dependent entries.
