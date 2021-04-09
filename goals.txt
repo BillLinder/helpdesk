@@ -27,7 +27,9 @@ Authentication
 Emails
   Selectively block emails from specified senders, domains, etc.
   
-
+Documentation Integration.
+  Allow a process documentation system to be referred to from the tickets, projects, etc.
+  Allos the documenation to refer back to tickets, procjets, etc.
   
 Authorization
 
